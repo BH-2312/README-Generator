@@ -17,7 +17,7 @@ const questions = [
   {
     type: "input",
     name: "installation",
-    message: "How do you install your project?"
+    message: "What are steps required to install your project?"
   },
   {
     type: "input",
@@ -27,7 +27,7 @@ const questions = [
   {
     type: "input",
     name: "contribution",
-    message: "How do you contribute to your application?"
+    message: "Do you allow others to contribute to your application? If so, how?"
   },
   {
     type: "input",
@@ -36,12 +36,12 @@ const questions = [
   },
   {
     type: "list",
-    message: "What license do you want for your application?",
+    message: "What license do you wish to select for your application?",
     name: "license",
     choices: [
-      "license1",
-      "license2",
-      "license3"
+      "MIT License",
+      "GNU GPL v3.0",
+      "ISC License"
     ]
   },
   {
@@ -58,41 +58,49 @@ const questions = [
 
 // function to write README file
 function writeToFile(data) {
-  return `# Title
-  
-${data.title}
+  return `# ${data.title}
      
-# Description
+## Description
 
 ${data.description}
 
-* Table of Contents
+## Table of Contents
 
-* Installation
+* [Installation](##installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions?](#questions)
 
-    ${data.installation}
 
-    * Usage
+## Installation
 
-    ${data.usage}
+${data.installation}
 
-    * License
+## Usage
 
-    ${data.license}
+${data.usage}
+
+## License
+
+This application is covered under ${data.license}
     
-    * Contributing
+## Contributing
 
-    ${data.contribution}
+${data.contribution}
 
-    * Tests
+## Tests
 
-    ${data.tests}
+${data.tests}
     
-    * Questions?
+## Questions?
 
-    PLease contact me at:
-    GitHub: ${data.github}
-    Email: (${data.email})`;
+Please contact me at:
+
+GitHub: github.com/${data.github}
+
+Email: ${data.email}`;
 }
 
 // function to initialize program
