@@ -1,4 +1,4 @@
-# README Generator
+# README Generator [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
      
 ## Description
 
@@ -21,6 +21,14 @@ The README Generator runs in the Command Line. The user will need to ensure that
 ## Usage
 
 THe application works by the user answering a series of prompts with questions about their application. Once the questions are answered, a README is generated that they can use in their application.  
+
+Screenshot located at:
+
+Assets\Screenshot.png
+
+Video walkthrough located at:
+
+https://drive.google.com/file/d/1AhCUpHlyPrIg6KDJiCXXAZQoUuMW68Kk/view
 
 ## License
 

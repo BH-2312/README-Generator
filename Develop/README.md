@@ -1,8 +1,8 @@
-# README Generator
+# Kim's project
      
 ## Description
 
-The README Generator is designed to generate high quality README documents that cover key areas regarding any created application. THe README you are currently reading was created using the README Generator. 
+Kim plays netty
 
 ## Table of Contents
 
@@ -16,11 +16,11 @@ The README Generator is designed to generate high quality README documents that 
 
 ## Installation
 
-The README Generator runs in the Command Line. The user will need to ensure that inquirer and FS are installed to ensure that the appliation works correctly.
+put bib on
 
 ## Usage
 
-THe application works by the user answering a series of prompts with questions about their application. Once the questions are answered, a README is generated that they can use in their application.  
+shoot goals
 
 ## License
 
@@ -28,11 +28,11 @@ This application is covered under GNU GPL v3.0
     
 ## Contributing
 
-Others may contribute to the application if they wish to improve its functionality. Please contact me using the details below for details on how to contribute
+need other players in team
 
 ## Tests
 
-The application has been tested however no formal tests have been written
+no practice
     
 ## Questions?
 
